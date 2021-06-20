@@ -4,10 +4,6 @@ terraform {
       source  = "hashicorp/azurerm"
       version = ">=2.57"
     }
-    template = {
-      source  = "hashicorp/template"
-      version = ">=2.2.0"
-    }
   }
 }
 
